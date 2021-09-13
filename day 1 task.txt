@@ -22,6 +22,9 @@ public class A1RightTech {
 	public void A1RightAnnagar() {
 		System.out.println("A1RightAnnagar");
 	}
+	public void A1RightMGRNagar () {
+		System.out.println("A1RightAnnagar");
+	}
 	
 	public static void main (String[] args) {
 	
@@ -31,33 +34,12 @@ public class A1RightTech {
 		A1RT.A1RightTamparam();
 		A1RT.A1RightVelacherry();
 		A1RT.A1RightAnnagar();
+		A1RT.A1RightMGRNagar();
 	}
 	
 }
 
 
-package org.company;
-
-public class CompanyInfo {
-
-	public void companyName() {
-		System.out.println("company Name");
-	}
-	public void companyId() {
-		System.out.println("company Id");
-	}
-	public void companyAddress() {
-		System.out.println("company Address");
-	}
-	public static void main(String[] args) {
-		CompanyInfo com=new CompanyInfo();
-		com.companyName();
-		com.companyId();
-		com.companyAddress();
-		
-	 }
-		
-	}
 
 
 
