@@ -1,0 +1,264 @@
+P1.A1RightAddress
+-------------------------
+
+package org.add;
+
+public class A1RightTech {
+
+	public void A1RightOmar() {
+		System.out.println("A1RightOmr");
+	}
+	public void A1RightAdayar() {
+		System.out.println("A1RightAdayar");
+		
+	}
+	public void A1RightTamparam() {
+		System.out.println("A1RightTamparam");
+		
+	}
+	public void A1RightVelacherry() {
+		System.out.println("A1RightVelacherry");
+		
+	}
+	public void A1RightAnnagar() {
+		System.out.println("A1RightAnnagar");
+	}
+	
+	public static void main (String[] args) {
+	
+		A1RightTech A1RT = new A1RightTech();
+		A1RT.A1RightOmar();
+		A1RT.A1RightAdayar();
+		A1RT.A1RightTamparam();
+		A1RT.A1RightVelacherry();
+		A1RT.A1RightAnnagar();
+	}
+	
+}
+===================*************================
+P2.CompanyDetails
+--------------------------
+
+package org.company;
+
+public class CompanyInfo {
+
+	public void companyName() {
+		System.out.println("company Name");
+	}
+	public void companyId() {
+		System.out.println("company Id");
+	}
+	public void companyAddress() {
+		System.out.println("company Address");
+	}
+	public static void main(String[] args) {
+		CompanyInfo com=new CompanyInfo();
+		com.companyName();
+		com.companyId();
+		com.companyAddress();
+		
+	 }
+		
+	}
+
+===========================**********************************************===================
+P3. Emp Details
+------------
+
+package org.emp;
+
+public class Employee {
+	public void empid() {
+		System.out.println("emp id");
+		
+	}
+	public void empname() {
+		System.out.println("emp name");
+	}
+
+	public void empdob() {
+		System.out.println("emp dob");
+		
+	}
+	
+	public void empphone() {
+		System.out.println("emp phone");
+	}
+	
+	public void empemail() {
+		System.out.println("emp email");
+	}
+	
+	public void empaddress() {
+		System.out.println("emp address");
+		
+		}
+	
+	public static void main(String[] args) {
+		
+     Employee emp = new Employee();
+     emp.empid();
+emp.empname();
+emp.empdob();
+emp.empphone();
+emp.empemail();
+emp.empaddress();
+
+	}
+
+}
+
+========================*************************==================
+P4.Language Details
+
+package org.lang;
+
+public class LanguageInfo {
+
+	public void tamilLanguge() {
+		System.out.println("tamil Language");
+	}
+	public void englishLanguage() {
+		System.out.println("english Language");
+	}
+	public void hindiLanguage() {
+		System.out.println("hindi Language");
+	}
+	public static void main(String[] args) {
+		LanguageInfo l= new LanguageInfo();
+		l.tamilLanguge();
+		l.englishLanguage();
+		l.hindiLanguage();
+	}
+}
+
+===package org.lang;
+
+public class StateDetails  {
+	public void southIndia() {
+		System.out.println("southIndia");
+	}
+	public void northIndia() {
+		System.out.println("northIndia");
+	}
+	public static void main(String[] args) {
+		StateDetails s = new StateDetails();
+		s.southIndia();
+		s.northIndia();
+	}
+	
+
+}
+===============******************============
+
+p6. My Phone
+
+package org.phone;
+
+public class PhoneInfo {
+	public void phoneName() {
+		System.out.println("phoneName");
+		
+	}
+	public void phoneMieiNumber() {
+		System.out.println("phoneMieiNumber");
+		
+	}
+	public void Camera() {
+		System.out.println("Camera");
+	}
+	public void Storage() {
+		System.out.println("Storage");
+	}
+	public void osName() {
+		System.out.println("osName");
+	}
+
+	public static void main (String[] args) {
+		PhoneInfo pi = new PhoneInfo();
+		pi.phoneName();
+		pi.phoneMieiNumber();
+		pi.Camera();
+		pi.Storage();
+		pi.osName();
+	}
+}
+=================************==========
+single inheritance
+package com.tcs.login;
+
+public class SampleTest {
+	
+	public void ParentMethod() {
+		
+		System.out.println("ParentMethod");
+	}
+
+
+}
+package com.tcs.login;
+
+public class SampleTestOne extends SampleTest {
+	
+	public void ChildMethod() {
+		
+		System.out.println("ChildMethod");
+	}
+
+	public static void main(String[] args) {
+		
+		SampleTestOne s = new SampleTestOne();
+		s.ParentMethod();
+		s.ChildMethod();
+	}
+
+}
+
+================***********==========
+
+same package differ class:
+
+package org.lang;
+
+public class LanguageInfo {
+
+	public void tamilLanguge() {
+		System.out.println("tamil Language");
+	}
+	public void englishLanguage() {
+		System.out.println("english Language");
+	}
+	public void hindiLanguage() {
+		System.out.println("hindi Language");
+	}
+	public static void main(String[] args) {
+		
+	}
+}
+package org.lang;
+
+public class StateDetails extends LanguageInfo {
+	public void southIndia() {
+		System.out.println("southIndia");
+	}
+	public void northIndia() {
+		System.out.println("northIndia");
+	}
+	public static void main(String[] args) {
+		StateDetails s = new StateDetails();
+		s.englishLanguage();
+		s.hindiLanguage();
+		s.tamilLanguge();
+		s.northIndia();
+		s.southIndia();
+	}
+	
+
+}
+===============*************==========
+
+
+
+
+
